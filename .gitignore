@@ -1,32 +1,39 @@
-# Dependencies
+# dependencies
 node_modules
 .pnp
 .pnp.js
 
-# Solana & Anchor
-.anchor
-target/
-**/*.rs.bk
-test-ledger/
-.DS_Store
+# testing
+coverage
 
-# Next.js
+# next.js
 .next/
 out/
 build
 dist
 
-# Debug
+# misc
+.DS_Store
+*.pem
+.env*.local
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Local env files
+# local env files
 .env*.local
 
-# Vercel
+# vercel
 .vercel
 
-# TypeScript
+# typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Anchor
+.anchor
+target/
+**/*.rs.bk
+test-ledger/
