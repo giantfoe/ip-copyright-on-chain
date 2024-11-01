@@ -1,12 +1,32 @@
-.anchor
-.DS_Store
-target/debug
-target/deploy
-target/release
-target/sbf-solana-solana
-target/test-ledger
-target/.rustc_info.json
-**/*.rs.bk
+# Dependencies
 node_modules
-test-ledger
-.yarn
+.pnp
+.pnp.js
+
+# Solana & Anchor
+.anchor
+target/
+**/*.rs.bk
+test-ledger/
+.DS_Store
+
+# Next.js
+.next/
+out/
+build
+dist
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
